@@ -76,7 +76,7 @@ TWITTER_EPOCH_MS = 1288834974657
 _URL_RE = re.compile(r"https?://\S+", re.IGNORECASE)
 _RT_RE = re.compile(r"^\s*RT\s+@", re.IGNORECASE)
 
-# Heuristic thresholds (documented in 项目流程说明 / 面试解答)
+# Heuristic thresholds (documented in 项目介绍)
 _MAX_POSTS_PER_DAY_BOT = 12
 _MIN_LIKES_LOW = 3
 _MIN_TEXT_LEN_EVENT = 8

@@ -15,5 +15,5 @@ bash run_pipeline.sh
 
 ## Docs
 
-- [面试解答.md](面试解答.md) — full write-up (Chinese)
-- [面试解答.pdf](面试解答.pdf) — PDF export
+- [项目介绍.md](项目介绍.md) — full write-up (Chinese)
+- [项目介绍.pdf](项目介绍.pdf) — PDF export
