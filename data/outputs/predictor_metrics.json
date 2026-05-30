@@ -1,0 +1,56 @@
+[
+  {
+    "target": "ind_ret_1h",
+    "model": "tabular_ridge",
+    "split": "test",
+    "n": 43,
+    "rmse": 0.00247,
+    "ic": 0.0687,
+    "dir_acc": 0.5116
+  },
+  {
+    "target": "ind_ret_1h",
+    "model": "tfidf_ridge",
+    "split": "test",
+    "n": 43,
+    "rmse": 0.002227,
+    "ic": 0.2194,
+    "dir_acc": 0.5116
+  },
+  {
+    "target": "ind_ret_1h",
+    "model": "mlp_fusion",
+    "split": "test",
+    "n": 43,
+    "rmse": 0.150405,
+    "ic": 0.0807,
+    "dir_acc": 0.5116
+  },
+  {
+    "target": "ind_ret_1d",
+    "model": "tabular_ridge",
+    "split": "test",
+    "n": 20,
+    "rmse": 0.017869,
+    "ic": NaN,
+    "dir_acc": 0.25
+  },
+  {
+    "target": "ind_ret_1d",
+    "model": "tfidf_ridge",
+    "split": "test",
+    "n": 20,
+    "rmse": 0.016205,
+    "ic": NaN,
+    "dir_acc": 0.3
+  },
+  {
+    "target": "ind_ret_1d",
+    "model": "mlp_fusion",
+    "split": "test",
+    "n": 20,
+    "rmse": 867278707216228.6,
+    "ic": NaN,
+    "dir_acc": 0.45
+  }
+]

@@ -1,0 +1,2 @@
+﻿signal,agg,signal_col,description,ret_col,lag_days,n_days,ic,ls_spread,cum_sign_ret,industry_filter,max_rank,scope
+sig_kol_breadth_contrarian,sum,sig_kol_breadth_contrarian_sum,参与 KOL 数 × 情绪反转,ind_ret_1d,1,84,0.2551,0.007593,0.1648,all,all,all_industries

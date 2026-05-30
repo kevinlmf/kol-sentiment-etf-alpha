@@ -1,0 +1,6 @@
+﻿split,n_days,n_active,total_return,ann_return,ann_vol,sharpe,max_drawdown,win_rate,ic_signal_fwd_ret,avg_daily_pnl,industry,industry_label,etf
+full,39,38,0.058138,0.440728,0.143038,3.0812,-0.045124,0.5641,0.3962,0.00149,ai_tech,AI / 大模型,QQQ
+full,23,22,-0.082743,-0.611819,0.165469,-3.6975,-0.095485,0.3478,-0.0051,-0.003696,ai_tools,AI 工具 / Agent,QQQ
+full,2,1,0.014588,5.201396,0.163747,31.7649,0.0,0.5,,0.007294,consumer_tech,消费科技,QQQ
+full,23,22,0.11264,2.220213,0.189324,11.727,-0.026284,0.6087,0.2898,0.004719,crypto,加密,BTC-USD
+full,2,1,0.040083,140.433089,0.449927,312.1242,0.0,0.5,,0.020041,semiconductor,半导体,SOXX

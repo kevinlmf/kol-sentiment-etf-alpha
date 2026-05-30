@@ -1,0 +1,42 @@
+{
+  "ret_col": "ind_ret_1d",
+  "train_ratio": 0.7,
+  "cut_date": "2026-05-01",
+  "n_daily": 89,
+  "n_train": 46,
+  "n_test": 43,
+  "features": [
+    "sentiment_mean",
+    "sentiment_sum",
+    "sentiment_dispersion",
+    "n_kol",
+    "n_posts",
+    "influence_sum",
+    "bear_posts",
+    "bull_posts",
+    "bear_ratio",
+    "bull_ratio",
+    "kol_breadth_x_bear"
+  ],
+  "use_industry_onehot": true,
+  "C": 1.0,
+  "train": {
+    "n": 46,
+    "accuracy": 0.587,
+    "auc": 0.7089,
+    "ic_prob_fwd_ret": 0.2663
+  },
+  "test": {
+    "n": 43,
+    "accuracy": 0.6047,
+    "auc": 0.537,
+    "ic_prob_fwd_ret": 0.0117
+  },
+  "full": {
+    "n": 89,
+    "accuracy": 0.5955,
+    "auc": 0.6102,
+    "ic_prob_fwd_ret": 0.0371
+  },
+  "y_up_rate": 0.5843
+}

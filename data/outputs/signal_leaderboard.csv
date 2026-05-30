@@ -1,0 +1,80 @@
+﻿signal,agg,signal_col,description,ret_col,lag_days,n_days,ic,ls_spread,cum_sign_ret,industry_filter,max_rank
+sig_kol_breadth_contrarian,sum,sig_kol_breadth_contrarian_sum,参与 KOL 数 × 情绪反转,ind_ret_1d,1,84,0.2551,0.007593,0.1648,all,all
+sig_bear_crowd,sum,sig_bear_crowd_sum,看空帖占比 × 情绪反转（恐慌反弹）,ind_ret_1d,1,84,0.2412,0.005737,0.140872,all,all
+sig_contrarian_top3,sum,sig_contrarian_top3_sum,仅Top3 KOL的反转信号（日频 sum）,ind_ret_1d,1,84,0.2403,0.003583,0.025356,all,all
+sig_contrarian_views,sum,sig_contrarian_views_sum,反转 × log(views),ind_ret_1d,1,84,0.223,0.009225,0.07659,all,all
+sig_contrarian_views,wmean,sig_contrarian_views_wmean,反转 × log(views),ind_ret_1d,1,84,0.2113,0.00532,0.075156,all,all
+sig_dispersion_contrarian,sum,sig_dispersion_contrarian_sum,高分歧日 × 情绪反转,ind_ret_1d,1,84,0.2075,0.008212,0.16307,all,all
+sig_contrarian_orig,sum,sig_contrarian_orig_sum,仅原创帖（非 RT）反转,ind_ret_1d,1,84,0.1946,0.00537,0.075156,all,all
+sig_bull_fade,sum,sig_bull_fade_sum,仅明显看多帖反转（拥挤做多）,ind_ret_1d,1,84,0.1942,0.005438,-0.05808,all,all
+sig_contrarian_x_viral,sum,sig_contrarian_x_viral_sum,反转 × 互动惊喜度（连续加权）,ind_ret_1d,1,84,0.1925,0.007005,0.14516,all,all
+sig_strong_bull_fade,sum,sig_strong_bull_fade_sum,强看多 (s>0.2) 反转,ind_ret_1d,1,84,0.1907,0.004794,-0.040588,all,all
+sig_contrarian,sum,sig_contrarian_sum,−Sentiment × Influence（反转）,ind_ret_1d,1,84,0.189,0.006513,0.15151,all,all
+sig_rank1_momentum,wmean,sig_rank1_momentum_wmean,仅行业 #1 KOL 跟随,ind_ret_1d,1,84,0.1875,0.000782,0.069746,all,all
+sig_imbalance_contrarian,sum,sig_imbalance_contrarian_sum,情绪方向 × 影响力反转,ind_ret_1d,1,84,0.1852,0.005796,-0.108816,all,all
+sig_extreme_contrarian,sum,sig_extreme_contrarian_sum,仅极端情绪帖（|s|≥0.2）反转,ind_ret_1d,1,84,0.185,0.004426,0.136157,all,all
+sig_bear_crowd_strict,sum,sig_bear_crowd_strict_sum,严格恐慌：bear_ratio>0.5 才 bear_crowd,ind_ret_1d,1,84,0.183,0.001708,0.133553,all,all
+sig_consensus_contrarian,sum,sig_consensus_contrarian_sum,行业共识情绪反转（|均值|×影响力）,ind_ret_1d,1,84,0.1826,0.007833,0.1648,all,all
+sig_nlp_minus_lex,sum,sig_nlp_minus_lex_sum,NLP 与词典差 × 反转,ind_ret_1d,1,84,0.1786,0.006663,0.172301,all,all
+sig_sentiment_delta_contra,sum,sig_sentiment_delta_contra_sum,情绪突变反转 × 影响力,ind_ret_1d,1,76,0.1722,0.004038,0.14788,all,all
+sig_bull_fade,wmean,sig_bull_fade_wmean,仅明显看多帖反转（拥挤做多）,ind_ret_1d,1,84,0.1621,0.002752,-0.05808,all,all
+sig_strong_bull_fade,wmean,sig_strong_bull_fade_wmean,强看多 (s>0.2) 反转,ind_ret_1d,1,84,0.1573,0.003109,-0.040588,all,all
+sig_imbalance_contrarian,wmean,sig_imbalance_contrarian_wmean,情绪方向 × 影响力反转,ind_ret_1d,1,84,0.1553,0.002592,-0.108816,all,all
+sig_viral_contrarian,sum,sig_viral_contrarian_sum,高互动惊喜帖才做情绪反转,ind_ret_1d,1,84,0.142,0.000698,0.02925,all,all
+sig_extreme_contrarian,wmean,sig_extreme_contrarian_wmean,仅极端情绪帖（|s|≥0.2）反转,ind_ret_1d,1,84,0.1408,0.005402,0.121722,all,all
+sig_surprise_contrarian,sum,sig_surprise_contrarian_sum,相对该 KOL 历史情绪的意外 × 反转,ind_ret_1d,1,84,0.1371,0.002516,0.082406,all,all
+sig_contrarian,wmean,sig_contrarian_wmean,−Sentiment × Influence（反转）,ind_ret_1d,1,84,0.1353,0.00469,0.161562,all,all
+sig_nlp_minus_lex,wmean,sig_nlp_minus_lex_wmean,NLP 与词典差 × 反转,ind_ret_1d,1,84,0.1341,0.005159,0.157866,all,all
+sig_post_burst_contrarian,sum,sig_post_burst_contrarian_sum,发帖密集日 × 情绪反转,ind_ret_1d,1,84,0.1338,0.009306,0.1648,all,all
+sig_unanimity_contrarian,sum,sig_unanimity_contrarian_sum,低分歧时加强反转（一致预期）,ind_ret_1d,1,84,0.1306,0.007369,0.1648,all,all
+sig_contrarian_orig,wmean,sig_contrarian_orig_wmean,仅原创帖（非 RT）反转,ind_ret_1d,1,84,0.1262,0.00448,0.085208,all,all
+sig_contrarian_top3,wmean,sig_contrarian_top3_wmean,仅Top3 KOL的反转信号（日频 sum）,ind_ret_1d,1,84,0.1024,0.002967,0.025356,all,all
+sig_surprise_contrarian,wmean,sig_surprise_contrarian_wmean,相对该 KOL 历史情绪的意外 × 反转,ind_ret_1d,1,84,0.1002,0.001908,0.074704,all,all
+sig_bear_only,sum,sig_bear_only_sum,仅看空情绪 × Influence,ind_ret_1d,1,84,0.0889,-1.3e-05,-0.115901,all,all
+sig_contrarian_x_viral,wmean,sig_contrarian_x_viral_wmean,反转 × 互动惊喜度（连续加权）,ind_ret_1d,1,84,0.0742,0.00427,0.169648,all,all
+sig_rt_contrarian,sum,sig_rt_contrarian_sum,仅转发帖反转,ind_ret_1d,1,84,0.0651,0.001583,0.12103,all,all
+sig_dual_confirm_contra,wmean,sig_dual_confirm_contra_wmean,看空 + 高互动双重确认反转,ind_ret_1d,1,84,0.0533,0.001842,0.070572,all,all
+sig_rt_contrarian,wmean,sig_rt_contrarian_wmean,仅转发帖反转,ind_ret_1d,1,84,0.0483,0.001583,0.12103,all,all
+sig_strong_bear_only,wmean,sig_strong_bear_only_wmean,强看空 (s<-0.2) 反转,ind_ret_1d,1,84,0.0309,-0.001089,0.065185,all,all
+sig_attention,wmean,sig_attention_wmean,Influence × sign(Sentiment),ind_ret_1d,1,84,0.0214,-0.003462,-0.171981,all,all
+sig_bear_bounce,wmean,sig_bear_bounce_wmean,仅明显看空帖反转（恐慌反弹）,ind_ret_1d,1,84,0.0135,0.001452,0.090938,all,all
+sig_rank1_momentum,sum,sig_rank1_momentum_sum,仅行业 #1 KOL 跟随,ind_ret_1d,1,84,0.0107,0.000782,0.069746,all,all
+sig_bear_x_eng,wmean,sig_bear_x_eng_wmean,看空帖 × 互动惊喜 × 反转,ind_ret_1d,1,84,0.0049,0.000789,0.063598,all,all
+sig_rank1_contrarian,sum,sig_rank1_contrarian_sum,仅行业 #1 KOL 反转,ind_ret_1d,1,84,-0.0107,-0.000782,-0.069746,all,all
+sig_bear_only,wmean,sig_bear_only_wmean,仅看空情绪 × Influence,ind_ret_1d,1,84,-0.0132,-0.002089,-0.115901,all,all
+sig_attention_raw,wmean,sig_attention_raw_wmean,纯 Influence（无情绪）,ind_ret_1d,1,84,-0.0154,-0.003796,0.108816,all,all
+sig_viral_contrarian,wmean,sig_viral_contrarian_wmean,高互动惊喜帖才做情绪反转,ind_ret_1d,1,84,-0.017,0.000805,0.02925,all,all
+sig_dual_confirm_contra,sum,sig_dual_confirm_contra_sum,看空 + 高互动双重确认反转,ind_ret_1d,1,84,-0.0333,0.001842,0.070572,all,all
+sig_rank_weighted,wmean,sig_rank_weighted_wmean,Sentiment × Influence × Top排名权重,ind_ret_1d,1,84,-0.0677,-0.003651,-0.122597,all,all
+sig_strong_bear_only,sum,sig_strong_bear_only_sum,强看空 (s<-0.2) 反转,ind_ret_1d,1,84,-0.0783,-0.001453,0.065185,all,all
+sig_bear_bounce,sum,sig_bear_bounce_sum,仅明显看空帖反转（恐慌反弹）,ind_ret_1d,1,84,-0.0847,-0.000808,0.090938,all,all
+sig_bull_x_eng,wmean,sig_bull_x_eng_wmean,看多帖 × 互动惊喜（对照）,ind_ret_1d,1,84,-0.0847,-0.003013,0.0718,all,all
+sig_bear_x_eng,sum,sig_bear_x_eng_sum,看空帖 × 互动惊喜 × 反转,ind_ret_1d,1,84,-0.102,-0.000901,0.063598,all,all
+sig_top_rank_only,wmean,sig_top_rank_only_wmean,仅行业排名前3 KOL,ind_ret_1d,1,84,-0.1024,-0.002967,-0.025356,all,all
+sig_net_crowd_contrarian,sum,sig_net_crowd_contrarian_sum,(看空占比−看多占比) × 情绪反转,ind_ret_1d,1,84,-0.1045,-0.003843,0.099809,all,all
+sig_original_post,wmean,sig_original_post_wmean,非转发帖 × Sentiment × Influence,ind_ret_1d,1,84,-0.1262,-0.00448,-0.085208,all,all
+sig_baseline,wmean,sig_baseline_wmean,Sentiment × Influence（原版）,ind_ret_1d,1,84,-0.1353,-0.00469,-0.161562,all,all
+sig_momentum,wmean,sig_momentum_wmean,跟随情绪 × 影响力（非反转）,ind_ret_1d,1,84,-0.1353,-0.00469,-0.161562,all,all
+sig_attention,sum,sig_attention_sum,Influence × sign(Sentiment),ind_ret_1d,1,84,-0.1355,-0.005629,-0.168575,all,all
+sig_engagement,wmean,sig_engagement_wmean,情绪 × 相对自身互动惊喜度,ind_ret_1d,1,84,-0.1364,-0.004895,-0.084682,all,all
+sig_disagreement,sum,sig_disagreement_sum,sig_disagreement,ind_ret_1d,1,84,-0.1477,-0.003872,0.029373,all,all
+sig_bull_crowd,sum,sig_bull_crowd_sum,看多帖占比 × 情绪（拥挤做多，对照）,ind_ret_1d,1,84,-0.1517,-0.005633,-0.073358,all,all
+sig_bull_only,wmean,sig_bull_only_wmean,仅看多情绪 × Influence,ind_ret_1d,1,84,-0.1642,-0.002516,0.049732,all,all
+sig_sentiment_x_likes,wmean,sig_sentiment_x_likes_wmean,Sentiment × log(1+likes),ind_ret_1d,1,84,-0.1689,-0.004096,-0.074683,all,all
+sig_attention_raw,sum,sig_attention_raw_sum,纯 Influence（无情绪）,ind_ret_1d,1,84,-0.1694,-0.003557,0.108816,all,all
+sig_sentiment_delta,sum,sig_sentiment_delta_sum,情绪相对5日均值突变 × 当日影响力,ind_ret_1d,1,76,-0.1722,-0.004038,-0.14788,all,all
+sig_momentum_daily,sum,sig_momentum_daily_sum,跟随行业情绪动量（非反转）,ind_ret_1d,1,84,-0.1796,-0.007789,-0.1648,all,all
+sig_sentiment_x_likes,sum,sig_sentiment_x_likes_sum,Sentiment × log(1+likes),ind_ret_1d,1,84,-0.182,-0.005536,-0.054911,all,all
+sig_rank1_contrarian,wmean,sig_rank1_contrarian_wmean,仅行业 #1 KOL 反转,ind_ret_1d,1,84,-0.1875,-0.000782,-0.069746,all,all
+sig_baseline,sum,sig_baseline_sum,Sentiment × Influence（原版）,ind_ret_1d,1,84,-0.189,-0.006513,-0.15151,all,all
+sig_momentum,sum,sig_momentum_sum,跟随情绪 × 影响力（非反转）,ind_ret_1d,1,84,-0.189,-0.006513,-0.15151,all,all
+sig_original_post,sum,sig_original_post_sum,非转发帖 × Sentiment × Influence,ind_ret_1d,1,84,-0.1946,-0.00537,-0.075156,all,all
+sig_bull_only,sum,sig_bull_only_sum,仅看多情绪 × Influence,ind_ret_1d,1,84,-0.1961,-0.005108,0.049732,all,all
+sig_bull_x_eng,sum,sig_bull_x_eng_sum,看多帖 × 互动惊喜（对照）,ind_ret_1d,1,84,-0.2003,-0.003435,0.0718,all,all
+sig_engagement,sum,sig_engagement_sum,情绪 × 相对自身互动惊喜度,ind_ret_1d,1,84,-0.2004,-0.005919,-0.071722,all,all
+sig_rank_weighted,sum,sig_rank_weighted_sum,Sentiment × Influence × Top排名权重,ind_ret_1d,1,84,-0.21,-0.005097,-0.167355,all,all
+sig_views_weighted,wmean,sig_views_weighted_wmean,情绪 × log(views),ind_ret_1d,1,84,-0.2113,-0.00532,-0.075156,all,all
+sig_views_weighted,sum,sig_views_weighted_sum,情绪 × log(views),ind_ret_1d,1,84,-0.223,-0.009225,-0.07659,all,all
+sig_top_rank_only,sum,sig_top_rank_only_sum,仅行业排名前3 KOL,ind_ret_1d,1,84,-0.2403,-0.003583,-0.025356,all,all
+sig_nlp_lex_disagree,sum,sig_nlp_lex_disagree_sum,NLP 与词典情绪不一致时反转,ind_ret_1d,1,84,,,,all,all
+sig_nlp_lex_disagree,wmean,sig_nlp_lex_disagree_wmean,NLP 与词典情绪不一致时反转,ind_ret_1d,1,84,,,,all,all

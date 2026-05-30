@@ -1,0 +1,23 @@
+﻿signal,description,split,n_days,total_return,sharpe,max_drawdown,win_rate,ic_signal_fwd_ret
+sig_baseline,Sentiment × Influence（原版）,full,26,0.017389,1.1092,-0.030901,0.5,-0.4172
+sig_baseline,Sentiment × Influence（原版）,test,8,0.025548,6.6317,-0.015088,0.75,-0.5744
+sig_contrarian,−Sentiment × Influence（反转）,full,26,-0.032382,-1.6775,-0.067577,0.4615,0.4172
+sig_contrarian,−Sentiment × Influence（反转）,test,8,-0.026896,-3.0831,-0.017846,0.25,0.5744
+sig_rank_weighted,Sentiment × Influence × Top排名权重,full,26,0.017389,1.1092,-0.030901,0.5,-0.4172
+sig_rank_weighted,Sentiment × Influence × Top排名权重,test,8,0.025548,6.6317,-0.015088,0.75,-0.5744
+sig_top_rank_only,仅行业排名前3 KOL,full,26,0.0,,0.0,0.0,
+sig_top_rank_only,仅行业排名前3 KOL,test,8,0.0,,0.0,0.0,
+sig_bull_only,仅看多情绪 × Influence,full,26,0.081836,7.8651,-0.015088,0.5385,-0.3786
+sig_bull_only,仅看多情绪 × Influence,test,8,0.025548,6.6317,-0.015088,0.75,-0.5851
+sig_bear_only,仅看空情绪 × Influence,full,26,-0.064909,-3.9049,-0.084747,0.2692,0.2817
+sig_bear_only,仅看空情绪 × Influence,test,8,-0.000633,-0.15,-0.017595,0.25,0.584
+sig_engagement,情绪 × 相对自身互动惊喜度,full,26,0.064043,5.515,-0.017166,0.5385,-0.1727
+sig_engagement,情绪 × 相对自身互动惊喜度,test,8,0.025548,6.6317,-0.015088,0.75,-0.2127
+sig_attention,Influence × sign(Sentiment),full,26,0.036223,2.541,-0.019536,0.4615,-0.1112
+sig_attention,Influence × sign(Sentiment),test,8,0.017574,3.858,-0.015088,0.625,-0.0409
+sig_attention_raw,纯 Influence（无情绪）,full,26,0.094824,9.1426,-0.015088,0.5769,-0.347
+sig_attention_raw,纯 Influence（无情绪）,test,8,0.025548,6.6317,-0.015088,0.75,-0.5864
+sig_original_post,非转发帖 × Sentiment × Influence,full,26,0.064043,5.515,-0.017166,0.5385,-0.3969
+sig_original_post,非转发帖 × Sentiment × Influence,test,8,0.025548,6.6317,-0.015088,0.75,-0.5851
+sig_sentiment_x_likes,Sentiment × log(1+likes),full,26,0.086855,8.5853,-0.015088,0.5769,-0.1693
+sig_sentiment_x_likes,Sentiment × log(1+likes),test,8,0.025548,6.6317,-0.015088,0.75,-0.3182

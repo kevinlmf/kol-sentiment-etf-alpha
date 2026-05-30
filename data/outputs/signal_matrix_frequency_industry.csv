@@ -1,0 +1,21 @@
+﻿industry,industry_label,horizon,horizon_label,ret_col,lag_days,best_signal,signal_agg,signal_col,ic,n_days,ls_spread,cum_sign_ret,description,scope,label_obs_tweets
+ai_tech,AI / 大模型,1d,1日,ind_ret_1d,1,sig_unanimity_contrarian,sum,sig_unanimity_contrarian_sum,0.4388,38,0.008261,0.072593,低分歧时加强反转（一致预期）,per_industry,543
+ai_tools,AI 工具 / Agent,1d,1日,ind_ret_1d,1,sig_rank1_momentum,wmean,sig_rank1_momentum_wmean,0.605,22,0.014589,0.088362,仅行业 #1 KOL 跟随,per_industry,543
+all,全行业 pooled,1d,1日,ind_ret_1d,1,sig_kol_breadth_contrarian,sum,sig_kol_breadth_contrarian_sum,0.2551,84,0.007593,0.1648,参与 KOL 数 × 情绪反转,all_industries,543
+crypto,加密,1d,1日,ind_ret_1d,1,sig_bear_crowd_strict,sum,sig_bear_crowd_strict_sum,0.458,22,0.009132,0.068986,严格恐慌：bear_ratio>0.5 才 bear_crowd,per_industry,543
+ai_tech,AI / 大模型,1h,1小时,ind_ret_1h,0,sig_strong_bull_fade,wmean,sig_strong_bull_fade_wmean,0.2922,39,0.003625,-0.043468,强看多 (s>0.2) 反转,per_industry,631
+ai_tools,AI 工具 / Agent,1h,1小时,ind_ret_1h,0,sig_sentiment_delta_contra,sum,sig_sentiment_delta_contra_sum,0.5399,15,0.005003,0.022977,情绪突变反转 × 影响力,per_industry,631
+all,全行业 pooled,1h,1小时,ind_ret_1h,0,sig_imbalance_contrarian,wmean,sig_imbalance_contrarian_wmean,0.2464,81,0.00478,-0.049425,情绪方向 × 影响力反转,all_industries,631
+crypto,加密,1h,1小时,ind_ret_1h,0,sig_rt_contrarian,wmean,sig_rt_contrarian_wmean,0.0925,23,0.000992,-0.002683,仅转发帖反转,per_industry,631
+ai_tech,AI / 大模型,20d,20日,ind_ret_20d,1,sig_extreme_contrarian,sum,sig_extreme_contrarian_sum,0.6486,14,0.050084,0.041682,仅极端情绪帖（|s|≥0.2）反转,per_industry,46
+ai_tools,AI 工具 / Agent,20d,20日,ind_ret_20d,1,sig_imbalance_contrarian,wmean,sig_imbalance_contrarian_wmean,0.5032,7,,,情绪方向 × 影响力反转,per_industry,46
+all,全行业 pooled,20d,20日,ind_ret_20d,1,sig_imbalance_contrarian,wmean,sig_imbalance_contrarian_wmean,0.7038,29,0.127396,-2.360232,情绪方向 × 影响力反转,all_industries,46
+crypto,加密,20d,20日,ind_ret_20d,1,sig_nlp_minus_lex,sum,sig_nlp_minus_lex_sum,0.8117,8,,,NLP 与词典差 × 反转,per_industry,46
+ai_tech,AI / 大模型,5d,5日,ind_ret_5d,1,sig_post_burst_contrarian,sum,sig_post_burst_contrarian_sum,0.4893,34,0.017824,-0.160733,发帖密集日 × 情绪反转,per_industry,208
+ai_tools,AI 工具 / Agent,5d,5日,ind_ret_5d,1,sig_rank1_momentum,wmean,sig_rank1_momentum_wmean,0.7911,18,0.042031,0.289424,仅行业 #1 KOL 跟随,per_industry,208
+all,全行业 pooled,5d,5日,ind_ret_5d,1,sig_rank1_momentum,wmean,sig_rank1_momentum_wmean,0.2792,70,0.002597,0.289424,仅行业 #1 KOL 跟随,all_industries,208
+crypto,加密,5d,5日,ind_ret_5d,1,sig_rt_contrarian,sum,sig_rt_contrarian_sum,0.6368,18,0.036482,0.163645,仅转发帖反转,per_industry,208
+ai_tech,AI / 大模型,5m,5分钟,ind_ret_5m,0,sig_nlp_lex_disagree,wmean,sig_nlp_lex_disagree_wmean,0.3541,39,0.000306,0.009921,NLP 与词典情绪不一致时反转,per_industry,638
+ai_tools,AI 工具 / Agent,5m,5分钟,ind_ret_5m,0,sig_sentiment_delta_contra,sum,sig_sentiment_delta_contra_sum,0.7333,15,0.006675,0.03485,情绪突变反转 × 影响力,per_industry,638
+all,全行业 pooled,5m,5分钟,ind_ret_5m,0,sig_bull_fade,wmean,sig_bull_fade_wmean,0.2913,81,0.004228,0.014794,仅明显看多帖反转（拥挤做多）,all_industries,638
+crypto,加密,5m,5分钟,ind_ret_5m,0,sig_rt_contrarian,wmean,sig_rt_contrarian_wmean,0.4013,23,0.000845,0.003764,仅转发帖反转,per_industry,638

@@ -1,0 +1,6 @@
+﻿split,n_days,n_active,total_return,ann_return,ann_vol,sharpe,max_drawdown,win_rate,ic_signal_fwd_ret,avg_daily_pnl,cost_bps,signal,industry,max_rank,ret_col,mode,note
+full,89,84,0.139582,0.447682,0.178515,2.5078,-0.110801,0.5169,0.2551,0.001531,5.0,sig_kol_breadth_contrarian,all,,ind_ret_1d,lag1,
+train,46,43,0.049425,0.302502,0.150395,2.0114,-0.043174,0.4783,0.102,0.001093,5.0,sig_kol_breadth_contrarian,all,,ind_ret_1d,lag1,
+test,43,41,0.085911,0.620952,0.205976,3.0147,-0.070678,0.5581,0.311,0.002,5.0,sig_kol_breadth_contrarian,all,,ind_ret_1d,lag1,
+combined_full,51,48,0.062244,0.347656,0.136566,2.5457,-0.042385,0.5294,,0.001221,5.0,sig_kol_breadth_contrarian,all,,ind_ret_1d,lag1,equal_weight_across_industries
+combined_test,16,16,0.021276,0.393162,0.146023,2.6925,-0.030084,0.5625,,0.001356,5.0,sig_kol_breadth_contrarian,all,,ind_ret_1d,lag1,equal_weight_across_industries

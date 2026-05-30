@@ -1,0 +1,13 @@
+﻿target,model,split,n,rmse,ic,dir_acc
+ind_ret_1h,tabular_ridge,train,170,0.003358,0.4271,0.3118
+ind_ret_1h,tabular_ridge,test,43,0.00247,0.0687,0.5116
+ind_ret_1h,tfidf_ridge,train,170,0.002906,0.6565,0.3941
+ind_ret_1h,tfidf_ridge,test,43,0.002227,0.2194,0.5116
+ind_ret_1h,mlp_fusion,train,170,0.133278,0.028,0.3176
+ind_ret_1h,mlp_fusion,test,43,0.150405,0.0807,0.5116
+ind_ret_1d,tabular_ridge,train,78,0.012735,0.528,0.7436
+ind_ret_1d,tabular_ridge,test,20,0.017869,,0.25
+ind_ret_1d,tfidf_ridge,train,78,0.011848,0.6296,0.7692
+ind_ret_1d,tfidf_ridge,test,20,0.016205,,0.3
+ind_ret_1d,mlp_fusion,train,78,0.208228,0.1879,0.5385
+ind_ret_1d,mlp_fusion,test,20,867278707216228.6,,0.45

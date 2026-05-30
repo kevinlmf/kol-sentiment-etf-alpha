@@ -1,0 +1,16 @@
+﻿industry,industry_label,horizon,horizon_label,ret_col,lag_days,mode,signal,signal_col,ic_scan,n_days,total_return,sharpe,max_drawdown,ic_backtest,comb_days,comb_total_return,comb_sharpe
+ai_tech,AI / 大模型,1d,1日,ind_ret_1d,1,lag1,sig_unanimity_contrarian,sig_unanimity_contrarian_sum,0.4388,39,0.058138,3.0812,-0.045124,0.4388,39,0.058138,3.0812
+ai_tools,AI 工具 / Agent,1d,1日,ind_ret_1d,1,lag1,sig_rank1_momentum,sig_rank1_momentum_wmean,0.605,23,0.086468,11.0444,-0.016088,0.605,23,0.086468,11.0444
+crypto,加密,1d,1日,ind_ret_1d,1,lag1,sig_bear_crowd_strict,sig_bear_crowd_strict_sum,0.458,23,0.066337,8.2251,-0.01089,0.458,23,0.066337,8.2251
+ai_tech,AI / 大模型,1h,1小时,ind_ret_1h,0,contemp,sig_strong_bull_fade,sig_strong_bull_fade_wmean,0.2922,39,-0.045447,-3.1418,-0.061921,0.1087,39,-0.045447,-3.1418
+ai_tools,AI 工具 / Agent,1h,1小时,ind_ret_1h,0,contemp,sig_sentiment_delta_contra,sig_sentiment_delta_contra_sum,0.5399,15,0.016311,3.0592,-0.018983,0.2204,15,0.016311,3.0592
+crypto,加密,1h,1小时,ind_ret_1h,0,contemp,sig_rt_contrarian,sig_rt_contrarian_wmean,0.0925,23,-0.006299,-1.2043,-0.012456,0.1293,23,-0.006299,-1.2043
+ai_tech,AI / 大模型,20d,20日,ind_ret_20d,1,lag1,sig_extreme_contrarian,sig_extreme_contrarian_sum,0.6486,15,-0.052432,-0.3257,-0.387041,0.6486,15,-0.052432,-0.3257
+ai_tools,AI 工具 / Agent,20d,20日,ind_ret_20d,1,lag1,sig_imbalance_contrarian,sig_imbalance_contrarian_wmean,0.5032,8,0.099635,30.9347,-0.087512,0.5032,8,0.099635,30.9347
+crypto,加密,20d,20日,ind_ret_20d,1,lag1,sig_nlp_minus_lex,sig_nlp_minus_lex_sum,0.8117,9,0.860182,38068902.9469,-0.013881,0.8117,9,0.860182,38068902.9469
+ai_tech,AI / 大模型,5d,5日,ind_ret_5d,1,lag1,sig_post_burst_contrarian,sig_post_burst_contrarian_sum,0.4893,35,-0.175669,-1.3999,-0.294942,0.4893,35,-0.175669,-1.3999
+ai_tools,AI 工具 / Agent,5d,5日,ind_ret_5d,1,lag1,sig_rank1_momentum,sig_rank1_momentum_wmean,0.7911,19,0.325984,126.9347,-0.0005,0.7911,19,0.325984,126.9347
+crypto,加密,5d,5日,ind_ret_5d,1,lag1,sig_rt_contrarian,sig_rt_contrarian_sum,0.6368,19,0.170272,21.4941,-0.045657,0.6368,19,0.170272,21.4941
+ai_tech,AI / 大模型,5m,5分钟,ind_ret_5m,0,contemp,sig_nlp_lex_disagree,sig_nlp_lex_disagree_wmean,0.3541,39,0.009421,2.6083,0.0,,39,0.009421,2.6083
+ai_tools,AI 工具 / Agent,5m,5分钟,ind_ret_5m,0,contemp,sig_sentiment_delta_contra,sig_sentiment_delta_contra_sum,0.7333,15,0.028554,7.7456,-0.011556,0.2836,15,0.028554,7.7456
+crypto,加密,5m,5分钟,ind_ret_5m,0,contemp,sig_rt_contrarian,sig_rt_contrarian_wmean,0.4013,23,0.000255,0.1995,-0.003724,0.5359,23,0.000255,0.1995

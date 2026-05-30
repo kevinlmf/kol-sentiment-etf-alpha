@@ -1,0 +1,6 @@
+﻿split,n_days,n_active,total_return,ann_return,ann_vol,sharpe,max_drawdown,win_rate,ic_signal_fwd_ret,avg_daily_pnl,cost_bps,signal,industry,max_rank,ret_col,mode,note
+full,23,10,0.066337,1.021289,0.124168,8.2251,-0.01089,0.3043,0.458,0.002825,5.0,sig_bear_crowd_strict,crypto,,ind_ret_1d,lag1,
+train,16,9,0.044029,0.971155,0.125118,7.7619,-0.01089,0.375,0.0394,0.002725,5.0,sig_bear_crowd_strict,crypto,,ind_ret_1d,lag1,
+test,7,1,0.021368,1.14072,0.131806,8.6545,-0.0005,0.1429,0.828,0.003054,5.0,sig_bear_crowd_strict,crypto,,ind_ret_1d,lag1,
+combined_full,23,14,0.066337,1.021289,0.124168,8.2251,-0.01089,0.3043,,0.002825,5.0,sig_bear_crowd_strict,crypto,,ind_ret_1d,lag1,equal_weight_across_industries
+combined_test,7,2,0.021368,1.14072,0.131806,8.6545,-0.0005,0.1429,,0.003054,5.0,sig_bear_crowd_strict,crypto,,ind_ret_1d,lag1,equal_weight_across_industries

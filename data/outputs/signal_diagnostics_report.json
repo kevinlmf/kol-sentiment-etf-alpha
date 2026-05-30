@@ -1,0 +1,175 @@
+[
+  {
+    "metric": "sample_size",
+    "scope": "all",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "n_obs": 84,
+    "n_calendar_days": 48,
+    "n_industries": 5,
+    "value_json": "{\"ai_tech\": 38, \"ai_tools\": 22, \"consumer_tech\": 1, \"crypto\": 22, \"semiconductor\": 1}"
+  },
+  {
+    "metric": "ic_lag1",
+    "scope": "all",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "value": 0.2551,
+    "n_obs": 84
+  },
+  {
+    "metric": "ic_lag1",
+    "scope": "train",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "value": 0.0962,
+    "n_obs": 46
+  },
+  {
+    "metric": "ic_lag1",
+    "scope": "test",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "value": 0.3142,
+    "n_obs": 38
+  },
+  {
+    "metric": "ic_bootstrap",
+    "scope": "all",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "value": 0.2551,
+    "n_obs": 2000,
+    "value_json": "{\"ic_obs\": 0.2551, \"ic_pvalue_two_sided\": 0.007, \"ic_ci_low\": 0.0808, \"ic_ci_high\": 0.4409}"
+  },
+  {
+    "metric": "portfolio_return_net",
+    "scope": "all_equal_weight",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "value": 0.065012,
+    "n_obs": 48
+  },
+  {
+    "metric": "portfolio_return_net",
+    "scope": "ex_crypto_equal_weight",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "value": 0.009878,
+    "n_obs": 48
+  },
+  {
+    "metric": "ic_vs_leg_pnl",
+    "scope": "ai_tech",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "industry_label": "AI / 大模型",
+    "ic": 0.3962,
+    "leg_total_return": 0.058138,
+    "sign_win_rate": 0.6053,
+    "n_obs": 38
+  },
+  {
+    "metric": "ic_vs_leg_pnl",
+    "scope": "ai_tools",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "industry_label": "AI 工具 / Agent",
+    "ic": -0.0051,
+    "leg_total_return": -0.082743,
+    "sign_win_rate": 0.3636,
+    "n_obs": 22
+  },
+  {
+    "metric": "ic_vs_leg_pnl",
+    "scope": "consumer_tech",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "industry_label": "消费科技",
+    "ic": null,
+    "leg_total_return": 0.014588,
+    "sign_win_rate": 1.0,
+    "n_obs": 1
+  },
+  {
+    "metric": "ic_vs_leg_pnl",
+    "scope": "crypto",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "industry_label": "加密",
+    "ic": 0.2898,
+    "leg_total_return": 0.11264,
+    "sign_win_rate": 0.6364,
+    "n_obs": 22
+  },
+  {
+    "metric": "ic_vs_leg_pnl",
+    "scope": "semiconductor",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "industry_label": "半导体",
+    "ic": null,
+    "leg_total_return": 0.040083,
+    "sign_win_rate": 1.0,
+    "n_obs": 1
+  },
+  {
+    "metric": "rolling_ic_7d",
+    "scope": "ai_tech",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "value": 0.4488,
+    "ic_positive_frac": 0.9412,
+    "n_obs": 34
+  },
+  {
+    "metric": "rolling_ic_7d",
+    "scope": "ai_tools",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "value": -0.273,
+    "ic_positive_frac": 0.3333,
+    "n_obs": 18
+  },
+  {
+    "metric": "rolling_ic_7d",
+    "scope": "crypto",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "value": 0.1171,
+    "ic_positive_frac": 0.6111,
+    "n_obs": 18
+  },
+  {
+    "metric": "ml_transformer_ic_train",
+    "scope": "all",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "value": 0.5692,
+    "n_obs": 160
+  },
+  {
+    "metric": "ml_transformer_ic_test",
+    "scope": "all",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "value": -0.619,
+    "n_obs": 40
+  },
+  {
+    "metric": "ic_lag1",
+    "scope": "signal_baseline",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "value": -0.189,
+    "n_obs": 123
+  },
+  {
+    "metric": "ic_lag1",
+    "scope": "signal_contrarian",
+    "signal": "sig_kol_breadth_contrarian",
+    "ret_col": "ind_ret_1d",
+    "value": 0.189,
+    "n_obs": 123
+  }
+]

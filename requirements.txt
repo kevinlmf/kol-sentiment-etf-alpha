@@ -1,0 +1,12 @@
+pandas
+python-dotenv
+twikit
+httpx
+yfinance
+emoji
+snownlp
+scikit-learn
+scipy
+# 可选: transformer_signal.py --backend bert
+# transformers
+# torch

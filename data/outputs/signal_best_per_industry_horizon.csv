@@ -1,0 +1,16 @@
+﻿signal,agg,signal_col,description,ret_col,lag_days,n_days,ic,ls_spread,cum_sign_ret,industry,industry_label,max_rank,scope,horizon,horizon_label,label_obs_tweets
+sig_sentiment_delta_contra,sum,sig_sentiment_delta_contra_sum,情绪突变反转 × 影响力,ind_ret_5m,0,15,0.7333,0.006675,0.03485,ai_tools,AI 工具 / Agent,all,per_industry,5m,5分钟,638
+sig_rt_contrarian,wmean,sig_rt_contrarian_wmean,仅转发帖反转,ind_ret_5m,0,23,0.4013,0.000845,0.003764,crypto,加密,all,per_industry,5m,5分钟,638
+sig_nlp_lex_disagree,wmean,sig_nlp_lex_disagree_wmean,NLP 与词典情绪不一致时反转,ind_ret_5m,0,39,0.3541,0.000306,0.009921,ai_tech,AI / 大模型,all,per_industry,5m,5分钟,638
+sig_sentiment_delta_contra,sum,sig_sentiment_delta_contra_sum,情绪突变反转 × 影响力,ind_ret_1h,0,15,0.5399,0.005003,0.022977,ai_tools,AI 工具 / Agent,all,per_industry,1h,1小时,631
+sig_strong_bull_fade,wmean,sig_strong_bull_fade_wmean,强看多 (s>0.2) 反转,ind_ret_1h,0,39,0.2922,0.003625,-0.043468,ai_tech,AI / 大模型,all,per_industry,1h,1小时,631
+sig_rt_contrarian,wmean,sig_rt_contrarian_wmean,仅转发帖反转,ind_ret_1h,0,23,0.0925,0.000992,-0.002683,crypto,加密,all,per_industry,1h,1小时,631
+sig_rank1_momentum,wmean,sig_rank1_momentum_wmean,仅行业 #1 KOL 跟随,ind_ret_1d,1,22,0.605,0.014589,0.088362,ai_tools,AI 工具 / Agent,all,per_industry,1d,1日,543
+sig_bear_crowd_strict,sum,sig_bear_crowd_strict_sum,严格恐慌：bear_ratio>0.5 才 bear_crowd,ind_ret_1d,1,22,0.458,0.009132,0.068986,crypto,加密,all,per_industry,1d,1日,543
+sig_unanimity_contrarian,sum,sig_unanimity_contrarian_sum,低分歧时加强反转（一致预期）,ind_ret_1d,1,38,0.4388,0.008261,0.072593,ai_tech,AI / 大模型,all,per_industry,1d,1日,543
+sig_rank1_momentum,wmean,sig_rank1_momentum_wmean,仅行业 #1 KOL 跟随,ind_ret_5d,1,18,0.7911,0.042031,0.289424,ai_tools,AI 工具 / Agent,all,per_industry,5d,5日,208
+sig_rt_contrarian,sum,sig_rt_contrarian_sum,仅转发帖反转,ind_ret_5d,1,18,0.6368,0.036482,0.163645,crypto,加密,all,per_industry,5d,5日,208
+sig_post_burst_contrarian,sum,sig_post_burst_contrarian_sum,发帖密集日 × 情绪反转,ind_ret_5d,1,34,0.4893,0.017824,-0.160733,ai_tech,AI / 大模型,all,per_industry,5d,5日,208
+sig_nlp_minus_lex,sum,sig_nlp_minus_lex_sum,NLP 与词典差 × 反转,ind_ret_20d,1,8,0.8117,,,crypto,加密,all,per_industry,20d,20日,46
+sig_extreme_contrarian,sum,sig_extreme_contrarian_sum,仅极端情绪帖（|s|≥0.2）反转,ind_ret_20d,1,14,0.6486,0.050084,0.041682,ai_tech,AI / 大模型,all,per_industry,20d,20日,46
+sig_imbalance_contrarian,wmean,sig_imbalance_contrarian_wmean,情绪方向 × 影响力反转,ind_ret_20d,1,7,0.5032,,,ai_tools,AI 工具 / Agent,all,per_industry,20d,20日,46

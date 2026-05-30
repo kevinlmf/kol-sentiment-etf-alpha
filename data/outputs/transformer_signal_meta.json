@@ -1,0 +1,12 @@
+{
+  "target": "ind_ret_1d",
+  "n_total": 200,
+  "n_train": 160,
+  "n_test": 40,
+  "emb_dim": 128,
+  "pca_dim": 32,
+  "ic_train": 0.5692,
+  "ic_test": -0.619,
+  "encoder": "tfidf-svd",
+  "model": "bert-base-chinese"
+}

@@ -1,0 +1,9 @@
+﻿strategy,ret_col,mode,cost_bps,universe,signal,leg_days,leg_total_return,leg_sharpe,leg_max_drawdown,leg_ic,comb_days,comb_total_return,comb_sharpe,comb_max_drawdown,test_leg_return,test_comb_return,test_comb_sharpe
+买入持有（有事件日做多）,ind_ret_1d,lag1,5.0,all,buy_hold_long,89,0.105695,1.8115,-0.085094,,51,0.074924,2.9258,-0.047517,-0.0032,0.030938,3.8387
+始终空仓,ind_ret_1d,lag1,5.0,all,always_flat,89,0.0,,0.0,,51,0.0,,0.0,0.0,0.0,
+随机多空（seed=42）,ind_ret_1d,lag1,5.0,all,random_sign,89,-0.237424,-3.0223,-0.25951,-0.242,51,-0.109192,-3.2304,-0.122452,-0.215666,-0.079336,-6.5842
+跟随情绪 baseline,ind_ret_1d,lag1,5.0,all,sig_baseline,89,-0.173016,-2.2972,-0.177478,-0.189,51,-0.102001,-2.9822,-0.123575,-0.099531,-0.029018,-2.5214
+反转 contrarian,ind_ret_1d,lag1,5.0,all,sig_contrarian,89,0.12003,2.1123,-0.12754,0.189,51,0.066539,2.746,-0.041952,0.065469,0.014995,1.8339
+主信号 breadth×反转,ind_ret_1d,lag1,5.0,all,sig_kol_breadth_contrarian,89,0.139582,2.5078,-0.110801,0.2551,51,0.062244,2.5457,-0.042385,0.085911,0.021276,2.6925
+ML 二分类 sig_ml_up,ind_ret_1d,lag1,5.0,all,sig_ml_up,89,-0.108352,-1.5313,-0.193083,0.042,51,-0.039349,-1.4317,-0.059949,-0.070272,-0.022267,-2.787
+分行业 IC 最优（1d 路由）,ind_ret_1d,lag1,5.0,all,per_industry_best,85,0.225897,6.1426,-0.029075,0.2626,51,0.11751,7.3256,-0.019267,0.079106,0.03362,9.2909

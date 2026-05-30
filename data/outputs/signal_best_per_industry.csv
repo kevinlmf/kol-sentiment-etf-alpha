@@ -1,0 +1,4 @@
+﻿signal,agg,signal_col,description,ret_col,lag_days,n_days,ic,ls_spread,cum_sign_ret,industry,industry_label,max_rank,scope
+sig_rank1_momentum,wmean,sig_rank1_momentum_wmean,仅行业 #1 KOL 跟随,ind_ret_1d,1,22,0.605,0.014589,0.088362,ai_tools,AI 工具 / Agent,all,per_industry
+sig_bear_crowd_strict,sum,sig_bear_crowd_strict_sum,严格恐慌：bear_ratio>0.5 才 bear_crowd,ind_ret_1d,1,22,0.458,0.009132,0.068986,crypto,加密,all,per_industry
+sig_unanimity_contrarian,sum,sig_unanimity_contrarian_sum,低分歧时加强反转（一致预期）,ind_ret_1d,1,38,0.4388,0.008261,0.072593,ai_tech,AI / 大模型,all,per_industry

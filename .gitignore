@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.Python
+.env
+.DS_Store
+
+# Twikit session — do not commit
+data/import/twikit_cookies.json
+
+# Optional: uncomment to skip large raw pulls (keep outputs/)
+# data/import/history_tweets.csv
+# data/import/history_tweets_clean.csv

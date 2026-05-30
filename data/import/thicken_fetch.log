@@ -1,0 +1,110 @@
+附件 users.csv: 119 KOL
+users.csv: 119 KOL → 抓取全部 119 人, 近 90 天
+users.csv 已有时间列
+  节流: 每人间隔 8.0s, 翻页间隔 1.5s, 上限 80 条/人, max_pages=2
+已加载 cookies: /Users/mengfanlong/Downloads/Quant Interview/data/import/twikit_cookies.json
+  模式: 每页 20 条, 最多翻页 2 次 (翻页易限流; 要更多请加 --max-pages 2)
+  --refetch-users: 已抓取的 KOL 也会再次请求（按 tweet_id 去重合并）
+  断点续跑: history 窗口内已有 0 人, 待抓 119
+
+  [1/119] @billtheinvestor
+  @billtheinvestor: 33 条 (history 共 1937 行)
+  进度 1/119, 本轮新增 33 条
+
+  [2/119] @mubeitech
+  @mubeitech: 40 条 (history 共 1973 行)
+  进度 2/119, 本轮新增 73 条
+
+  [3/119] @seekjourney
+  @seekjourney: 35 条 (history 共 1991 行)
+  进度 3/119, 本轮新增 108 条
+
+  [4/119] @zaotang18
+  @zaotang18: 38 条 (history 共 2028 行)
+  进度 4/119, 本轮新增 146 条
+
+  [5/119] @kenw_2
+  @kenw_2: 33 条 (history 共 2044 行)
+  进度 5/119, 本轮新增 179 条
+
+  [6/119] @liyue_ai
+  @liyue_ai: 32 条 (history 共 2048 行)
+  进度 6/119, 本轮新增 211 条
+
+  [7/119] @PandaTalk8
+  @PandaTalk8: 37 条 (history 共 2061 行)
+  进度 7/119, 本轮新增 248 条
+
+  [8/119] @QingQ77
+  @QingQ77: 40 条 (history 共 2082 行)
+  进度 8/119, 本轮新增 288 条
+
+  [9/119] @Pluvio9yte
+  @Pluvio9yte: 35 条 (history 共 2100 行)
+  进度 9/119, 本轮新增 323 条
+
+  [10/119] @FLMdongtianfudi
+  @FLMdongtianfudi: 39 条 (history 共 2119 行)
+  进度 10/119, 本轮新增 362 条
+
+  [11/119] @dotey
+  @dotey: 31 条 (history 共 2135 行)
+  进度 11/119, 本轮新增 393 条
+
+  [12/119] @using_YueCheng
+  @using_YueCheng: 40 条 (history 共 2171 行)
+  进度 12/119, 本轮新增 433 条
+
+  [13/119] @tuotuotuoyu
+  @tuotuotuoyu: 10 条 (history 共 2181 行)
+  进度 13/119, 本轮新增 443 条
+
+  [14/119] @RonVonng
+  @RonVonng: 36 条 (history 共 2198 行)
+  进度 14/119, 本轮新增 479 条
+
+  [15/119] @nbblock
+  @nbblock: 40 条 (history 共 2218 行)
+  进度 15/119, 本轮新增 519 条
+
+  [16/119] @geekbb
+  [geekbb/page] 限流 429，40s 后重试 (1/2)
+  [geekbb/page] 等待 30s ...
+  [geekbb/page] 等待 20s ...
+  [geekbb/page] 等待 10s ...
+  @geekbb: 翻页失败，保留已抓 20 条 (TooManyRequests)
+  @geekbb: 20 条 (history 共 2224 行)
+  进度 16/119, 本轮新增 539 条
+
+  [17/119] @yetone
+  [yetone/tweets] 限流 429，40s 后重试 (1/2)
+  [yetone/tweets] 等待 30s ...
+  [yetone/tweets] 等待 20s ...
+  [yetone/tweets] 等待 10s ...
+  [yetone/tweets] 等待 20s ...
+  [yetone/tweets] 等待 10s ...
+  [yetone/tweets] 限流 429，40s 后重试 (1/2)
+  [yetone/tweets] 等待 30s ...
+  [yetone/tweets] 等待 20s ...
+  [yetone/tweets] 等待 10s ...
+  [yetone/tweets] 等待 20s ...
+  [yetone/tweets] 等待 10s ...
+  [yetone/tweets] 限流 429，40s 后重试 (1/2)
+  [yetone/tweets] 等待 30s ...
+  [yetone/tweets] 等待 20s ...
+  [yetone/tweets] 等待 10s ...
+  [yetone/tweets] 等待 20s ...
+  [yetone/tweets] 等待 10s ...
+  失败: @yetone: rate_limit
+
+  触发全局限流，暂停队列。请等待 15~30 分钟后:
+    python3 data_mining.py --fetch-twikit --days 90 --resume --sleep-user 8
+  或先抓别人(跳过失败名单): 同上命令不加 --retry-failed
+
+  失败/待重试 1 人 -> /Users/mengfanlong/Downloads/Quant Interview/data/import/fetch_failed_users.txt
+  继续抓其余人: python3 data_mining.py --fetch-twikit --days 30 --resume --sleep-user 10
+  只重试失败: python3 data_mining.py --fetch-twikit --days 30 --retry-failed --sleep-user 12
+users.csv 已有时间列
+users.csv 已更新 74 人 (近 90 天推文 1572 条)
+
+完成。可加 --master 构建 kol_master。

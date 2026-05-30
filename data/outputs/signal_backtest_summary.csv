@@ -1,0 +1,17 @@
+﻿industry,industry_label,etf,n_days,ic_signal_ret,ls_spread,cum_ret_long_short,ret_col,signal_col
+_all_,全样本,-,40,-0.1852,,,ind_ret_1h,signal_sum
+ai_tech,AI / 大模型,QQQ,23,-0.1241,-0.00048,0.007291,ind_ret_1h,signal_sum
+ai_tools,AI 工具 / Agent,QQQ,6,-0.1972,,,ind_ret_1h,signal_sum
+crypto,加密,BTC-USD,11,-0.1531,-0.000284,-0.002715,ind_ret_1h,signal_sum
+_all_,全样本,-,40,0.0697,,,ind_ret_1h,signal_iw
+ai_tech,AI / 大模型,QQQ,23,0.0907,0.000683,0.007291,ind_ret_1h,signal_iw
+ai_tools,AI 工具 / Agent,QQQ,6,0.222,,,ind_ret_1h,signal_iw
+crypto,加密,BTC-USD,11,-0.1202,-0.000712,-0.002715,ind_ret_1h,signal_iw
+_all_,全样本,-,42,-0.302,,,ind_ret_1d,signal_sum
+ai_tech,AI / 大模型,QQQ,26,0.2114,0.00599,0.07868,ind_ret_1d,signal_sum
+ai_tools,AI 工具 / Agent,QQQ,6,-0.4609,,,ind_ret_1d,signal_sum
+crypto,加密,BTC-USD,10,-0.3088,-0.01987,-0.027199,ind_ret_1d,signal_sum
+_all_,全样本,-,42,0.1299,,,ind_ret_1d,signal_iw
+ai_tech,AI / 大模型,QQQ,26,0.124,0.005448,0.07868,ind_ret_1d,signal_iw
+ai_tools,AI 工具 / Agent,QQQ,6,-0.0297,,,ind_ret_1d,signal_iw
+crypto,加密,BTC-USD,10,0.1369,0.002116,-0.027199,ind_ret_1d,signal_iw

@@ -1,0 +1,20 @@
+﻿metric,scope,signal,ret_col,n_obs,n_calendar_days,n_industries,value_json,value,industry_label,ic,leg_total_return,sign_win_rate,ic_positive_frac
+sample_size,all,sig_kol_breadth_contrarian,ind_ret_1d,84,48.0,5.0,"{""ai_tech"": 38, ""ai_tools"": 22, ""consumer_tech"": 1, ""crypto"": 22, ""semiconductor"": 1}",,,,,,
+ic_lag1,all,sig_kol_breadth_contrarian,ind_ret_1d,84,,,,0.2551,,,,,
+ic_lag1,train,sig_kol_breadth_contrarian,ind_ret_1d,46,,,,0.0962,,,,,
+ic_lag1,test,sig_kol_breadth_contrarian,ind_ret_1d,38,,,,0.3142,,,,,
+ic_bootstrap,all,sig_kol_breadth_contrarian,ind_ret_1d,2000,,,"{""ic_obs"": 0.2551, ""ic_pvalue_two_sided"": 0.007, ""ic_ci_low"": 0.0808, ""ic_ci_high"": 0.4409}",0.2551,,,,,
+portfolio_return_net,all_equal_weight,sig_kol_breadth_contrarian,ind_ret_1d,48,,,,0.065012,,,,,
+portfolio_return_net,ex_crypto_equal_weight,sig_kol_breadth_contrarian,ind_ret_1d,48,,,,0.009878,,,,,
+ic_vs_leg_pnl,ai_tech,sig_kol_breadth_contrarian,ind_ret_1d,38,,,,,AI / 大模型,0.3962,0.058138,0.6053,
+ic_vs_leg_pnl,ai_tools,sig_kol_breadth_contrarian,ind_ret_1d,22,,,,,AI 工具 / Agent,-0.0051,-0.082743,0.3636,
+ic_vs_leg_pnl,consumer_tech,sig_kol_breadth_contrarian,ind_ret_1d,1,,,,,消费科技,,0.014588,1.0,
+ic_vs_leg_pnl,crypto,sig_kol_breadth_contrarian,ind_ret_1d,22,,,,,加密,0.2898,0.11264,0.6364,
+ic_vs_leg_pnl,semiconductor,sig_kol_breadth_contrarian,ind_ret_1d,1,,,,,半导体,,0.040083,1.0,
+rolling_ic_7d,ai_tech,sig_kol_breadth_contrarian,ind_ret_1d,34,,,,0.4488,,,,,0.9412
+rolling_ic_7d,ai_tools,sig_kol_breadth_contrarian,ind_ret_1d,18,,,,-0.273,,,,,0.3333
+rolling_ic_7d,crypto,sig_kol_breadth_contrarian,ind_ret_1d,18,,,,0.1171,,,,,0.6111
+ml_transformer_ic_train,all,sig_kol_breadth_contrarian,ind_ret_1d,160,,,,0.5692,,,,,
+ml_transformer_ic_test,all,sig_kol_breadth_contrarian,ind_ret_1d,40,,,,-0.619,,,,,
+ic_lag1,signal_baseline,sig_kol_breadth_contrarian,ind_ret_1d,123,,,,-0.189,,,,,
+ic_lag1,signal_contrarian,sig_kol_breadth_contrarian,ind_ret_1d,123,,,,0.189,,,,,
