@@ -72,6 +72,7 @@ Best per industry (1d): `ai_tech` → unanimity contrarian; `crypto` → bear_cr
 ## Quick start
 
 ```bash
+git clone https://github.com/kevinlmf/kol-sentiment-etf-alpha
 pip install -r requirements.txt
 bash run_pipeline.sh
 ```
